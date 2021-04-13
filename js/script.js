@@ -1,6 +1,7 @@
 // this function
-var bailar = function (baile) {
+var bailar = function () {
 	var currentClassName = document.getElementById('baile').className;
+	}
 	// changing class name
 	if (currentClassName == 'baile') {
 		document.getElementById('baile').className = 'baile red';
