@@ -1,3 +1,13 @@
+// this function
+var bailar = function () {
+	var currentClassName = document.getElementById('baile').className;
+	// changing class name
+	if (currentClassName == 'baile') {
+		document.getElementById('baile').className = 'baile red';
+	} else {
+	 	document.getElementById('baile').className = 'baile';
+	}
+
 var sayMyName = function (name) {
 	alert('My name is: '+name);
 }
@@ -29,8 +39,6 @@ var car = {
 				this.isTurnedOn = true
 			} else {
 				this.isTurnedOn = false
-			}
-		}
-	};
+			};
 
-console.log('hello there friends!');
+console.log('hello there friends!')
