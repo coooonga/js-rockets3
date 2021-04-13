@@ -1,5 +1,5 @@
 // this function
-var bailar = function () {
+var bailar = function (baile) {
 	var currentClassName = document.getElementById('baile').className;
 	// changing class name
 	if (currentClassName == 'baile') {
